@@ -1,0 +1,26 @@
+|wrapper_ex2
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+LEDR[0] <= SW[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] <= SW[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] <= SW[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDG0 <= ex2:dut.f
+
+
+|wrapper_ex2|ex2:dut
+x => f.IN0
+x => f.IN0
+x => f.IN0
+x => f.IN0
+y => f.IN1
+y => f.IN1
+y => f.IN1
+y => f.IN1
+z => f.IN1
+z => f.IN1
+z => f.IN1
+z => f.IN1
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
